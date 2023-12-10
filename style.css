@@ -1,0 +1,90 @@
+body {
+     /*background-color: #3498db; */
+    color: #fff; 
+    /*font-family: Arial, sans-serif;*/
+    /*text-align: center; */
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+	display: flex;
+	flex-direction: column;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    /* background-color: #6c6c6c4d; */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ .subcontainer {
+    /*background-color: #ffffffe3;*/
+    height: 30%;
+    padding: 0px 50px 0px 50px;
+    border-radius: 15px;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.33);*/
+    /*text-align: center;*/
+    width:320px;
+    
+} 
+.subcontainer div{
+    padding: 15px;
+    text-align: center;
+}
+.subcontainer h1{
+    margin: 0px;
+}
+
+.subcontainer input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-width: 1px;
+}
+
+input{
+    /*border-radius: 40px;*/
+    background-color: #359fea; 
+    border: 0px;
+    /*padding: 8px;*/
+    margin: 15px;
+    height:20px;
+    /*width:90%;*/
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+input:focus {
+    outline: none;
+     /* Menghilangkan outline (garis pinggir) yang muncul pada beberapa browser */
+    /*border: none;  */
+    /* Menghilangkan border pada saat input mendapatkan fokus */
+}
+
+
+h1 {
+    color: #333;
+}
+input[type="submit"] {
+    color: white;
+    height:20px;
+    padding: 0px;
+    height:30px;
+}
+
+/*
+button {
+    background-color: #60cb64;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background-color 0.8s;
+    height:40px;
+    width:95%;
+    font-family: 'Press Start 2P', cursive;
+}*/
